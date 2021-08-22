@@ -1,10 +1,10 @@
-# undefined
-  undefined
+# kk
+  ![MIT](https://img.shields.io/badge/License-MIT-blue)
   * [Information](#information)
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
-  * [Test](test)
+  * [Test](#test)
   * [Questions](#questions)
   * [License](#license)
   
@@ -13,9 +13,9 @@
   # Installation
     npm install
   # Usage
-    This may be used in any project in order to help generate a readme.md
+    hh
   # Contributing
-    Any future updates
+    everything
   # Test
     npm run test
   # Questions
@@ -23,9 +23,29 @@
   
   * You can see more of my work by searching my username: undefined
   * Or by accessing my Github here. (https://github.com/undefined)
-  *  You may also reach out to me directly at undefined
+  *  You may also reach out to me directly at jj
   # License
 
    
-  undefined
+  MIT License
+
+    Copyright (c) [year] [fullname]
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
 

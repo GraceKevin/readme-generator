@@ -46,10 +46,10 @@ const questions = [
     },
     {
         type: "input",
-        name: "yourEmail",
+        name: "Email",
         message: "Please provide your email address: (Required)",
-        validate: (yourEmail) => {
-            if (yourEmail) {
+        validate: (Email) => {
+            if (Email) {
                 return true
             }
             else {
