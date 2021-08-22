@@ -534,7 +534,8 @@ function renderLicenseLink(license) {
     PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
     POSSIBILITY OF SUCH DAMAGES.`
   }
-  if (license === "None") return "";
+  if (license === "None") 
+    return "";
 }
 
 // Create a function that returns the license section of README
@@ -558,9 +559,9 @@ function generateMarkdown(data) {
   * [Questions](#questions)
   * [License](#license)
   
-  # information
+  # Information
     ${data.Information}
-  # installation
+  # Installation
     ${data.Installation}
   # Usage
     ${data.Usage}
@@ -570,7 +571,12 @@ function generateMarkdown(data) {
     ${data.Test}
   # Questions
     ${data.Questions}
+  
+  * You can see more of my work by searching my username: ${data.Username}
+  * Or by accessing my Github here. (https://github.com/${data.Username})
+  *  You may also reach out to me directly at ${data.Email}
   # License
+
   ${renderLicenseSection(data.Licenses)}
   ${renderLicenseLink(data.Licenses)}
 
