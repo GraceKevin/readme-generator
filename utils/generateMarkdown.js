@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 
 function renderLicenseBadge(license) {
@@ -20,7 +20,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
+// Create a function that returns the license link
 // If there is no license, return an empty string
 
 function renderLicenseLink(license) {
@@ -534,20 +534,43 @@ function renderLicenseLink(license) {
     PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
     POSSIBILITY OF SUCH DAMAGES.`
   }
-  if (license === "None") 
-    return "";
+  if (license === "None") return "";
 }
 
-// TODO: Create a function that returns the license section of README
+// Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-
+  if (license === "None") {
+    return " "
+  }
+  return " "
 }
 
-// TODO: Create a function to generate markdown for README
+// Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.Licenses)}
+  * [Information](#information)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Test](test)
+  * [Questions](#questions)
+  * [License](#license)
+  
+  # information
+    ${data.Information}
+  # installation
+    ${data.Installation}
+  # Usage
+    ${data.Usage}
+  # Contributing
+    ${data.Contributing}
+  # Test
+    ${data.Test}
+  # Questions
+    ${data.Questions}
+  # License
   ${renderLicenseSection(data.Licenses)}
   ${renderLicenseLink(data.Licenses)}
 
