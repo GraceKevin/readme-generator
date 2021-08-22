@@ -1,6 +1,5 @@
-# kk
+# readme-generator
   ![MIT](https://img.shields.io/badge/License-MIT-blue)
-  * [Information](#information)
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
@@ -8,28 +7,26 @@
   * [Questions](#questions)
   * [License](#license)
   
-  # Information
-    undefined
   # Installation
     npm install
   # Usage
-    hh
+    After accessing, you will be prompted a series of questions for information regarding your repository. This will include a description, installation, usage, license, contributing, testing and questions section.
   # Contributing
-    everything
+    Contributing to the repository will be accessed through node
   # Test
-    npm run test
+
   # Questions
-    undefined
+  *  You may  reach out to me directly at kgrace90@yahoo.com for any questions.
+
   
-  * You can see more of my work by searching my username: undefined
-  * Or by accessing my Github here. (https://github.com/undefined)
-  *  You may also reach out to me directly at jj
+  * You can see more of my work by searching my username: GraceKevin
+  * Or by accessing my Github [here](https://github.com/GraceKevin)
   # License
 
    
   MIT License
 
-    Copyright (c) [year] [fullname]
+    Copyright (c) 2021
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal

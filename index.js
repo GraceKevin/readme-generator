@@ -7,7 +7,7 @@ const generate = require('./utils/generateMarkdown');
 const questions = [
     {
         type: 'input',
-        name: 'Github',
+        name: 'Username',
         message: 'What is your Github Username? (Required)',
         validate: (Username) => {
             if (Username) {
@@ -74,7 +74,7 @@ const questions = [
     {
         type: "input",
         name: "Installation",
-        message: "Which command is used  to run installation of the project?",
+        message: "Will any  installation be required?",
         default: "npm install"
     },
     {
@@ -86,7 +86,7 @@ const questions = [
     {
         type: "input",
         name: "Usage",
-        message: "What does any users need to know regarding the usage of this repository? (Required)",
+        message: "What do any users need to know regarding the usage of this repository? (Required)",
         validate: (Usage) => {
             if (Usage) {
                 return true
@@ -99,7 +99,7 @@ const questions = [
     {
         type: "input",
         name: "Contributing",
-        message: "What does any users need to know regarding contibuting to this repository? (Required)",
+        message: "What is needed to know for contributing to this repository? (Required)",
         validate: (Contributing) => {
             if (Contributing)  {
                 return true
@@ -117,7 +117,7 @@ function writeToFile(fileName, data) {
         if (err)
             throw (err);
             // display 
-            console.log("ERROR");
+            console.log("Readme.md now viewable");
     })
 };
 

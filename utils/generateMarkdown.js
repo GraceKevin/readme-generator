@@ -551,7 +551,6 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.Title}
   ${renderLicenseBadge(data.License)}
-  * [Information](#information)
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
@@ -559,8 +558,6 @@ function generateMarkdown(data) {
   * [Questions](#questions)
   * [License](#license)
   
-  # Information
-    ${data.Information}
   # Installation
     ${data.Installation}
   # Usage
@@ -568,13 +565,13 @@ function generateMarkdown(data) {
   # Contributing
     ${data.Contributing}
   # Test
-    ${data.Test}
+    ${data.Tests}
   # Questions
-    ${data.Questions}
+  *  You may  reach out to me directly at ${data.Email} for any questions.
+
   
   * You can see more of my work by searching my username: ${data.Username}
-  * Or by accessing my Github here. (https://github.com/${data.Username})
-  *  You may also reach out to me directly at ${data.Email}
+  * Or by accessing my Github [here](https://github.com/${data.Username})
   # License
 
   ${renderLicenseSection(data.License)}
